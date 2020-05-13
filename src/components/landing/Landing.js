@@ -1,12 +1,12 @@
 import React from "react"
 import "./Landing.css"
-import ParticlesContainer from "./landing-components/particles/Particles"
+import Title from "./landing-components/title/Title"
 
 
 const Landing = () => {
   return (
     <div className="landingContainer">
-      <ParticlesContainer />
+      <Title />
     </div>
   )
 }
