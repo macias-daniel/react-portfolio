@@ -10,12 +10,12 @@ import Col from 'react-bootstrap/Col'
 const AboutMe = () => {
   return (
     <div className="aboutMeContainer">
-      <Container >
+      <Container className="aboutMeContentContainer" >
         <Row>
-          <Col>
+          <Col md={6} className="imgCol">
             <AboutMeImage />
           </Col>
-          <Col>
+          <Col md={6} className="textCol">
             <AboutMeText />
           </Col>
         </Row >
