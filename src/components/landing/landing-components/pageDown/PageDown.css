@@ -1,0 +1,26 @@
+.pagedown-container {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.page-down-text {
+  opacity: 50%;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.page-down-text:hover {
+  color: #84a9ac;
+}
+
+.pagedown-container > a {
+  color: #cae8d5;
+}
+
+.pagedown-container > a:hover {
+  color: #84a9ac;
+  text-decoration: none;
+}
