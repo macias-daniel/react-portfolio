@@ -1,0 +1,21 @@
+.about-me-img {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  margin-right: 30px;
+}
+
+.imgCol {
+  text-align: right;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .imgCol {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-me-img {
+    margin-right: 0;
+  }
+}

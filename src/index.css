@@ -1,0 +1,13 @@
+body,
+html {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+}

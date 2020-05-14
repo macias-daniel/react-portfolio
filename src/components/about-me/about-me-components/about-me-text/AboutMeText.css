@@ -1,0 +1,23 @@
+.about-me-header {
+  font-family: "Oswald", sans-serif;
+  color: #222831;
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+.about-me-text {
+  color: #d3d3d3;
+  font-size: 20px;
+  line-height: 1.25;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .textCol {
+    padding: 40px !important;
+  }
+  .about-me-text,
+  .about-me-header {
+    margin: 0;
+  }
+}
