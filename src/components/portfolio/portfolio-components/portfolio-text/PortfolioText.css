@@ -1,0 +1,17 @@
+.textContentContainer {
+  margin-top: 20px;
+}
+
+.linkBtn {
+  margin: 5px;
+  border-radius: 0px !important;
+}
+
+.hr {
+  width: 700px;
+}
+@media screen and (max-width: 767px) {
+  .textContentContainer {
+    margin-top: 30px;
+  }
+}
